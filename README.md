@@ -4,6 +4,8 @@ A Claude skill that works like a CFA-charterholder senior financial analyst: it 
 Program curriculum, computes every number with a tested deterministic engine, and pairs the quantitative work with the
 curriculum's qualitative frameworks. It reads, audits and improves Excel models and financial statements.
 
+![How cfa-analyst works: your question or Excel file goes to Claude running SKILL.md, which uses the playbooks, calculation engine, Excel tools and curriculum search to build an answer with methods, reproducible numbers, Excel findings and page citations](docs/how-it-works.png)
+
 ## Install (Claude Code)
 
 ```bash
