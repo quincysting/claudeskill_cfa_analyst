@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: ethics-research-analyst
+expected_outcome: |
+  Correct standard-by-standard determinations with the finer points (whose violation, timing of disclosure and consent),
+  corrective actions, Handbook-grounded reasoning.

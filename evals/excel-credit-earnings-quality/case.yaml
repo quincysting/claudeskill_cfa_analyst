@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: excel-credit-earnings-quality
+expected_outcome: |
+  Correct ratios and cash-flow analysis, the earnings-quality red flags, the equity roll-forward gap, a lending decision
+  with covenants, curriculum citations, reproducible numbers.
+context:
+  scaffold_script: place-files.sh

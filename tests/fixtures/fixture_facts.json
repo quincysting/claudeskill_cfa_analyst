@@ -1,0 +1,122 @@
+{
+ "northwind_dcf.xlsx": {
+  "as_built": {
+   "sum_pv_fcff": 629.4703505117149,
+   "terminal_value": 9447.872577856002,
+   "pv_terminal_value": 6944.4683901411445,
+   "enterprise_value": 7573.938740652859,
+   "equity_value": 7273.938740652859,
+   "value_per_share": 145.47877481305719,
+   "wacc_book": 0.07753333333333334,
+   "cost_of_equity": 0.10600000000000001
+  },
+  "balance_sheet_assets": [
+   870,
+   905,
+   960
+  ],
+  "balance_sheet_l_plus_e": [
+   870,
+   900,
+   960
+  ]
+ },
+ "harbor_financials.xlsx": {
+  "net_income": [
+   150.0,
+   182.25,
+   221.25
+  ],
+  "cfo": [
+   null,
+   128.25,
+   98.25
+  ],
+  "revenue": [
+   2000,
+   2200,
+   2420
+  ],
+  "receivables": [
+   220,
+   300,
+   420
+  ],
+  "inventory": [
+   300,
+   360,
+   450
+  ],
+  "total_assets": [
+   1570,
+   1760,
+   2000
+  ],
+  "total_equity": [
+   840,
+   980,
+   1105
+  ],
+  "ebit": [
+   240,
+   285,
+   340
+  ],
+  "tax": [
+   50.0,
+   60.75,
+   73.75
+  ],
+  "pretax": [
+   200,
+   243,
+   295
+  ],
+  "interest": [
+   40,
+   42,
+   45
+  ],
+  "capex": [
+   110,
+   126,
+   122
+  ],
+  "cogs": [
+   1200,
+   1309,
+   1428
+  ],
+  "ap": [
+   180,
+   200,
+   215
+  ],
+  "current_assets": [
+   670,
+   800,
+   990
+  ],
+  "current_liabilities": [
+   230,
+   260,
+   335
+  ],
+  "total_debt": [
+   550,
+   580,
+   680
+  ]
+ },
+ "northwind_flaws": {
+  "hardcoded_growth": "DCF!E4 grows revenue with a typed 1.06 instead of the growth input",
+  "pasted_ebit": "DCF!F5 is a typed 180 over the EBIT formula row (formula gives 189.37)",
+  "inconsistent_fcff": "DCF!E12 leaves out the change in NWC that the rest of the FCFF row subtracts",
+  "fcff_uses_ebit": "FCFF row starts from EBIT, not NOPAT = EBIT x (1 - t)",
+  "tv_discount_period": "PV of terminal value discounts 4 periods; the TV sits at the end of year 5",
+  "terminal_growth_high": "terminal growth 6% exceeds long-run nominal GDP; TV dominates EV",
+  "wacc_book_weights": "WACC sheet weights debt and equity at book value; the market cap is 1,500 vs book 400",
+  "wacc_not_linked": "Assumptions!B9 WACC is a typed 8% not linked to the WACC sheet",
+  "bs_imbalance": "BS 2022A total assets 905 vs total liabilities and equity 900"
+ }
+}

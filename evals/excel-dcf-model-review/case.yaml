@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: excel-dcf-model-review
+expected_outcome: |
+  Ranked review that finds the formula and methodology errors, quantifies them, gives a corrected value with assumptions
+  and sensitivity, ties methods to the curriculum, reproducible numbers, separate improved workbook.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: pe-waterfall-clawback
+expected_outcome: |
+  Correct deal-by-deal carry and clawback, European distributions by date, GP carry, LP net IRR and multiple.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: equity-collar-hedge
+expected_outcome: |
+  Correct pricing and payoffs, trade-offs, client considerations incl. assignment and skew, citations, reproducibility.

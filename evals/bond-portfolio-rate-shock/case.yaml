@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: bond-portfolio-rate-shock
+expected_outcome: |
+  Correct analytics and hedge size, correct incidental figures, judgment on residual risks, citations, reproducibility.

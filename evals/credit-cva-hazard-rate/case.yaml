@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: credit-cva-hazard-rate
+expected_outcome: |
+  Correct CVA table and fair value, YTM and spread, and the implied hazard rate.

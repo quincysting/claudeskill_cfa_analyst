@@ -1,0 +1,13 @@
+# knowledge-base index: full text of licensed study materials, built locally with scripts/kb.py build
+data/*.sqlite
+data/*.tmp
+
+# eval case quoting CFA Institute mock-exam questions verbatim (copyrighted)
+evals/mock-exam-*/
+evals/results/
+
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.omc/
+*.pyc

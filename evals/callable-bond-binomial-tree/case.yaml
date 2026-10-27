@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: callable-bond-binomial-tree
+expected_outcome: |
+  Correctly calibrated lognormal tree, straight and callable values, option value, OAS and effective duration, and a
+  sensible relative-value interpretation.

@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: ips-retired-couple
+expected_outcome: |
+  Complete IPS with correct return requirement, recognition and resolution of the return/risk conflict, all constraints,
+  an allocation with expected return and risk, citations, reproducibility.
